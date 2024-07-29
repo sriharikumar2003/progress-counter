@@ -1,0 +1,27 @@
+.first,.second,.third,.fourth,.fifth{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    background-color: white;
+    margin-right: 40px ;
+}
+.active{
+    background-color: rgb(127, 230, 127);
+}
+body{
+    display: flex;
+    background-color: azure;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.prev,.next{
+    height: 50px;
+    width: 100px; 
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
